@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4 {
+    padding: 5px;
+}
+
+.errorPage {
+    padding: 50px;
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 60%;
+    border: 2px solid #ccc;
+    background-color: #e2f3b8;
+}
+
+.errorPage h2 {
+    color: red;
+}
+
+.point {
+    color: red;
+}
+
+.errMessage {
+    color: red;
+}
+
+.message {
+    color: green;
+}
+
+.notice p {
+    padding: 10px;
+}
+
+.header {
+    background-color: #e2f3b8;
+}
+
+.header img {
+    float: left;
+    height: 80px;
+    width: 110px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    line-height: 70px;
+}
+
+body {
+    font-size: 14px;
+    font-family: Consolas, Verdana, Times, serif;
+    background-color:white;
+}
+
+input, textarea, select {
+    font-family: Consolas, "Courier New", Times, serif;
+    background-color:white;
+}
+
+select {
+    padding: 3px;
+    box-sizing: border-box; 
+}
+
+input, textarea {
+    padding: 4px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+input[type="submit"],  input[type="reset"] {
+    width: auto;
+    display: inline;
+    border: 1px solid #ccc;
+    background-color: #e2f3b8;
+    color: black;
+}
+
+.container {
+    width: 100%;
+}
+
+.form caption {
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.loginForm caption {
+    padding-bottom: 20px;
+    font-size: 17px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.loginForm { 
+    margin: 20px;
+}
+
+.form { 
+    margin: 10px;
+}
+
+.form input[type="submit"],  .form input[type="reset"] {
+    margin-top: 8px;
+}
+
+.navigation {
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #e2f3b8;
+    width: 16%;
+    height: 100%;
+    float: left;
+    margin-right: 50px;
+}
+
+.navigation ul {
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 20px;
+    list-style-type: none;
+}
+
+.navigation ul li {  
+    padding: 3px;
+}
+
+.content {
+    margin: 20px;
+    text-align:justify;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}
+
+
+
+#nav {
+    display: none;
+}
+
+
+#printData {
+    width: 100%; 
+    margin: 0; 
+    float: none;
+}
+
+hr {
+    margin-top: 5px;
+    color: #e6e6e6;
+}
+
+.fileTrackData { 
+    text-align: justify;
+}
+
+.fileTrackData table, .fileTrackData th, .fileTrackData td {
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    padding: 3px;
+    text-align: center;
+}
+
+.fileTrackData table {
+    width: 80%;
+}
+
+.fileTrackData tr:hover {
+    background: #eeeeff
+}
+
+.fileTrackData th {
+    border-bottom: 2px solid black;
+}
+
+/* for printers */
+@media print 
+{
+    #noPrint {
+        display: none;
+    } 
+
+}

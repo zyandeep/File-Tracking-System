@@ -1,0 +1,47 @@
+body {
+    font-size: 14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background-color: white;
+}
+
+#nav, .pagebanner, .pagelinks, .exportlinks{
+    display: none;
+}
+
+
+#printData {
+    width: 100%; 
+    margin: 0; 
+    float: none;
+}
+
+table, th, td {     
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+    padding: 3px;
+    text-align: center;
+}
+
+table {    
+    width: 100%;
+}
+
+th {
+    border-bottom: 2px solid black;
+}
+
+caption {
+    padding-bottom: 7px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* for printers */
+@media print 
+{
+    #noPrint {
+        display: none;
+    } 
+
+}
